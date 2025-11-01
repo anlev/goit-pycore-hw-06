@@ -62,6 +62,7 @@ class AddressBook(UserDict):
     def delete(self, name: str):
         self.data.pop(name)
 
+
 if __name__ == "__main__":
     book = AddressBook()
 
